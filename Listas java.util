@@ -1,0 +1,41 @@
+import java.util.Iterator;
+import java.util.Set;
+import java.util.TreeSet;
+
+
+public class GerenciaDeProdutos {
+	
+	/* Porjeto simples para aplicar o uso de listas do pacote Java.util*/
+
+	public static void main(String[] args) {
+		
+		Set<String>ListaProdutos = new TreeSet<>();
+		
+		
+		ListaProdutos.add("Arroz");
+		ListaProdutos.add("Feijao");
+		ListaProdutos.add("Carne de frago");
+		ListaProdutos.add("Batata");
+		ListaProdutos.add("Abobora");
+		ListaProdutos.add("SUco");
+		ListaProdutos.add("Refrigerante");
+		//Comando .add adiciona os produtos na lista criada pelo SET
+		
+		for(String Lista: ListaProdutos){
+			System.out.println(Lista);
+			//Estrutura de repetição para ordenar os produtos
+		}
+		
+		ListaProdutos.remove("SUco");
+		ListaProdutos.remove("Carne de frango");
+		ListaProdutos.remove("Refrigerante");
+		ListaProdutos.remove("Abobora");
+		
+		//comando .remove para remover os itens marcados.
+		
+		System.out.println(ListaProdutos);
+		//exibe todo o conteudo da lista "Apos ter apagado"
+		
+	}
+
+}
