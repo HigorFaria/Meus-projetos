@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> welcome to Infinit Solutions !</title>
+</head>
+<body>
+	<div>
+	<h1 >Infinit Solucoes</h1>
+	<p>Somos uma empresa focada em gestao comercial para peqenas e medias empresas</p>
+	<p>Contamos com uma equipe especialisada de atendimento para te atender</p>
+	<p></p>
+	</div>
+
+	<div>
+		<h2>Contamos com o nosso Sistema</h2>
+		<tr>
+			<td>
+				<h3>Infinit Plus</h3>
+				<p>Sistema completo</p>
+			</td>
+			<td>
+				<h3>Infinit Comercial</h3>
+				<p></p>
+			</td>
+
+		</tr>
+	</div>
+
+</body>
+</html>
